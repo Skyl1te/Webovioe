@@ -1,0 +1,15 @@
+.product_type_revers {
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  z-index: 1;
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .product_type_revers {    
+    flex-direction: column;
+  }
+}

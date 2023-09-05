@@ -1,0 +1,14 @@
+.product__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #4D533C;
+}
+
+@media screen and (max-width: 1083px) {
+  .product__title {
+    font-size: 30px;
+  }
+}

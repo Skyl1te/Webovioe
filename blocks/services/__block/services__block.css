@@ -1,0 +1,16 @@
+.services__block {
+  width: calc(100% - 166px*2);
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .services__block {
+    width: calc(100% - 30px*2);
+  }
+}
+
+@media screen and (min-width: 1440px ) {
+  .services__block {
+    padding-left: 168px;
+  }
+}

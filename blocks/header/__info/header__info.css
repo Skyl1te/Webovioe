@@ -1,0 +1,12 @@
+.header__info {
+  width: calc(100% - 166px*2);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .header__info {
+    width: calc(100% - 30px*2);
+  }
+}

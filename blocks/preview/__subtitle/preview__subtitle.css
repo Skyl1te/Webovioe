@@ -1,0 +1,14 @@
+.preview__subtitle {
+  width: 400px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(33, 56, 66, 0.6);
+}
+
+@media screen and (max-width: 1024px) {
+  .preview__subtitle {
+    width: 573px;
+  }
+}

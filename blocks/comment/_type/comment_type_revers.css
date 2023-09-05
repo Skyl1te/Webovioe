@@ -1,0 +1,21 @@
+.comment_type_revers {
+  position: absolute;
+  z-index: 2;
+  bottom: 0px;
+  left: 454px;
+}
+
+@media screen and (max-width: 1024px) {
+  .comment_type_revers {    
+    left: 184px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comment_type_revers {    
+    position: static;    
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}

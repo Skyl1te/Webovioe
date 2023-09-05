@@ -1,0 +1,23 @@
+.table__heading {
+  margin: 0;
+  padding-bottom: 20px;
+  width: 194px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #4D533C;
+}
+
+@media screen and (max-width: 1024px) {
+  .table__heading {    
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .table__heading {    
+    width: 100%;
+  }
+}

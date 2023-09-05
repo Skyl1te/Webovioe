@@ -1,0 +1,24 @@
+.action__title {
+  margin: 0;
+  padding-top: 70px;
+  margin-left: 164px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  color: #4D533C;
+}
+
+@media screen and (max-width: 1024px) {
+  .action__title {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .action__title {
+    margin-left: 30px;    
+    margin-bottom: 20px;
+  }
+}

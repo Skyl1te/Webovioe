@@ -1,0 +1,17 @@
+.methods {
+  width: calc(100% - 165px*2);
+  margin: 0 auto;
+  padding-top: 149px;
+}
+
+@media screen and (max-width: 1024px) {
+  .methods {    
+    width: 692px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .methods {    
+    padding-top: 60px;;
+  }
+}

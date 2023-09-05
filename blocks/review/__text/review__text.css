@@ -1,0 +1,18 @@
+.review__text {
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 8px;
+  padding-top: 244px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #4D533C;
+}
+
+@media screen and (max-width: 1024px) {
+  .review__text {
+    padding-right: 40px;
+    padding-top: 120px;
+  }
+}

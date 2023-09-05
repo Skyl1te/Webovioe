@@ -1,0 +1,18 @@
+.preview {
+  padding-top: 150px;
+  width: 976px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 104px;
+}
+
+@media screen and (max-width: 1024px) {
+  .preview {
+    padding-top: 60px;
+    width: 692px;
+    flex-direction: column;
+    align-items: flex-start
+  }
+}

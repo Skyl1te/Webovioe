@@ -1,0 +1,10 @@
+.reline__social {
+}
+
+@media screen and (max-width: 1312px) {
+  .reline__social {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

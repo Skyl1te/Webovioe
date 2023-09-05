@@ -1,0 +1,25 @@
+.comment {
+  position: absolute;
+  z-index: 2;
+  bottom: 0px;
+  left: 323px;
+  width: 453px;
+  background-color: #FFFFFF;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .comment {    
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comment {    
+    position: static;    
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}
